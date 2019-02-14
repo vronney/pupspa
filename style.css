@@ -63,6 +63,17 @@ a:hover {
     font-family: 'Permanent Marker', cursive;
 }
 
+.bone1,
+.bone2 {
+    height: 40px;
+    width: 40px;
+}
+
+.paws {
+    height: 20px;
+    width: 20px;
+}
+
 .textContent,
 .listText {
     text-transform: uppercase;
