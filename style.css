@@ -93,7 +93,7 @@ a:hover {
 }
 
 ul {
-    text-align: center
+    text-align: center; 
 }
 
 li img {
@@ -130,6 +130,10 @@ i {
     .contact {
         line-height: .3rem;
         margin-left: 20px;
+    }
+    
+    ul {
+        padding-left: 0;
     }
 }
 
