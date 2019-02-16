@@ -121,9 +121,15 @@ i {
 }
 
 .contact {
-    line-height: .3rem;
+    /* line-height: .3rem; */
     color: white;
     font-size: .75rem;
+}
+
+@media only screen and (max-width: 499px) {
+    .contact {
+        line-height: .3rem;
+    }
 }
 
 @media only screen and (min-width: 500px) {
@@ -139,6 +145,15 @@ i {
     .services {
         margin-left: 150px;
         margin-right: 150px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: repeat(4, 15px);
+        justify-content: space-around;
+        padding-top: .5px;
+        padding-bottom: 10px;
     }
 
 }
