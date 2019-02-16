@@ -111,6 +111,15 @@ footer {
     font-family: 'Permanent Marker', cursive;
 }
 
+.socialContent {
+    display: none;
+}
+
+i {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
 .contact {
     line-height: .3rem;
     color: white;
@@ -131,4 +140,5 @@ footer {
         margin-left: 150px;
         margin-right: 150px;
     }
+
 }
